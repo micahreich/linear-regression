@@ -29,7 +29,7 @@ Starting with our theta parameters as zero or as randomly initialized, the gradi
   <img src="https://quicklatex.com/cache3/cf/ql_893566d3b8ed63f1395b7cea5f0062cf_l3.png">
 </p>
 
-where the partial derivitive of J(theta) represents how J(theta) changes with respect to the parameter theta j (either theta 0 or theta 1 if doing single variable regression). Over multiple training iterations, the parameters are refined until J(theta) is minimized.
+where the partial derivitive of J(theta) represents how J(theta) changes with respect to the parameter theta j (either theta 0 or theta 1 if doing single variable regression). Over multiple training iterations, the parameters are refined until J(theta) is minimized. The alpha is known as the learning rate, and it represents the magnitude with which theta should be changed during the training iteration.
 
 Note: changing theta by looking at the partial derivitive of the loss over the entire dataset is known as batch gradient descent.
 
